@@ -9,7 +9,7 @@ import (
 
 func main() {
 	// ファイルサイズチェック
-	f, _ := os.Open("./sample/image.jpg") // ファイルオープン
+	f, _ := os.Open("../../sample/image.jpg") // ファイルオープン
 	defer func() {
 		_ = f.Close()
 	}()
